@@ -18,6 +18,8 @@ alias jn="jupyter notebook"
 alias spy="spyder"
 alias bi-dep="cd ~/pprojects/bi-scripts/deploy"
 alias bi-deploy="ansible-playbook -i ansible_hosts scripts_playbook.yml"
+alias finderon="defaults write com.apple.finder AppleShowAllFiles YES"
+alias finderoff="defaults write com.apple.finder AppleShowAllFiles NO"
 
 # Environments
 alias tf="source ~/tensorflow/bin/activate"
